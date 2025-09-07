@@ -1,12 +1,35 @@
-# React + Vite
+# PasseiPor / APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
 
-Currently, two official plugins are available:
+O **PasseiPor** é um projeto onde a pessoa registra viagens como uma **recordação digital**. É possível buscar países, marcar onde já esteve e escrever um relato da experiência. Assim, cada viagem vira uma lembrança única dentro da plataforma, criando um diário pessoal de descobertas pelo mundo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Base URL
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* App local do front-end: [`http://localhost:5173/`](http://localhost:5173/)
+
+---
+
+## Como Rodar
+
+1. Clone o projeto da API e execute-a:
+
+   * Repositório da API: [https://github.com/Miguel2k20/passei-por-API](https://github.com/Miguel2k20/passei-por-API)
+
+2. Certifique-se de usar **Node.js v22.16.0**.
+
+3. Com a API rodando, instale as dependências do front-end:
+
+```bash
+npm install
+```
+
+4. Execute o projeto:
+
+```bash
+npm run dev
+```
+
+> O front-end estará disponível em `http://localhost:5173/` e se comunicará com a API localmente.
