@@ -1,0 +1,13 @@
+.button-default {
+    background-color: #df3305;
+    color: #ffffff;
+    padding: 0.5rem 2rem;;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    &:hover {
+        background-color: #bf2a04;
+    }
+}
